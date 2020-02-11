@@ -40,7 +40,7 @@ public class ShypliteTracking {
         HttpClient httpClient = new DefaultHttpClient();
         HttpGet request = new HttpGet("https://api.shyplite.com/track/860542416");
         request.addHeader("x-appid", String.valueOf(appID));
-        request.addHeader("x-sellerid", "25225");
+        request.addHeader("x-sellerid", "123");
         request.addHeader("x-timestamp", String.valueOf(timeStampMillis));
         request.addHeader("Authorization", authtoken);
         request.addHeader("x-version", "3");
